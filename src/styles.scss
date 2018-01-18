@@ -1,1 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
+// @import 'assets/scss/taxi.scss';
+@import "./assets/scss/simple-line-icons.scss";
+@import "./assets/scss/font-awesome.scss";
+
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Core variables and mixins
+@import "./assets/scss/bootstrap/variables";
+@import "./assets/scss/bootstrap/mixins";
+// Override bootstrap variables to match Metronic style
+@import "./assets/scss/global/variables";
+@import "./assets/scss/global/bootstrap-override";
+@import "./assets/scss/variables/variables-taxi";
+// Reset and dependencies
+@import "./assets/scss/bootstrap/normalize";
+@import "./assets/scss/bootstrap/print";
+@import "./assets/scss/bootstrap/glyphicons";
+// Core CSS
+@import "./assets/scss/bootstrap/scaffolding";
+@import "./assets/scss/bootstrap/type";
+@import "./assets/scss/bootstrap/code";
+@import "./assets/scss/bootstrap/grid";
+@import "./assets/scss/bootstrap/tables";
+@import "./assets/scss/bootstrap/forms";
+@import "./assets/scss/bootstrap/buttons";
+// Components
+@import "./assets/scss/bootstrap/component-animations";
+@import "./assets/scss/bootstrap/dropdowns";
+@import "./assets/scss/bootstrap/button-groups";
+@import "./assets/scss/bootstrap/input-groups";
+@import "./assets/scss/bootstrap/navs";
+@import "./assets/scss/bootstrap/navbar";
+@import "./assets/scss/bootstrap/breadcrumbs";
+@import "./assets/scss/bootstrap/pagination";
+@import "./assets/scss/bootstrap/pager";
+@import "./assets/scss/bootstrap/labels";
+@import "./assets/scss/bootstrap/badges";
+@import "./assets/scss/bootstrap/jumbotron";
+@import "./assets/scss/bootstrap/thumbnails";
+@import "./assets/scss/bootstrap/alerts";
+@import "./assets/scss/bootstrap/progress-bars";
+@import "./assets/scss/bootstrap/media";
+@import "./assets/scss/bootstrap/list-group";
+@import "./assets/scss/bootstrap/panels";
+@import "./assets/scss/bootstrap/responsive-embed";
+@import "./assets/scss/bootstrap/wells";
+@import "./assets/scss/bootstrap/close";
+// Components w/ JavaScript
+@import "./assets/scss/bootstrap/modals";
+// @import "./assets/scss/bootstrap/tooltip";
+// @import "./assets/scss/bootstrap/popovers";
+// @import "./assets/scss/bootstrap/carousel";
+// Utility classes
+@import "./assets/scss/bootstrap/utilities";
+@import "./assets/scss/bootstrap/responsive-utilities";
+@import "./assets/scss/global/plugins/_select2.scss";
+@import "./assets/scss/global/plugins/_datatables.scss";
+@import "./assets/scss/global/_components.scss";
+@import "./assets/scss/global/_plugins.scss";
+@import "./assets/scss/layouts/layout4/layout.scss";
+@import "./assets/scss/layouts/layout4/themes/default.scss";
+
+/* our customs */
+
+@import "./assets/scss/layouts/customs";
+@import "./assets/scss/components/all";
